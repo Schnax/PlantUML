@@ -1,0 +1,20 @@
+Title Software
+
+:Interessent: -- (EMail an AllSun GmbH senden)
+:Interessent: -- (Allgemeine Informationen über Solaranlagen)
+
+:Verkäufer: -- (Allgemeine Informationen über Solaranlagen)
+:Verkäufer: -- (Auftragsdurchführung verfolgen)
+:Verkäufer: -- (Konzept erstellen)
+:Verkäufer: -- (Verkaufsangebot erstellen)
+
+:Verkaufsleiter: -- (Allgemeine Informationen über Solaranlagen)
+:Verkaufsleiter: -- (Auftragsdurchführung verfolgen)
+:Verkaufsleiter: -- (Verkaufsanalyse erstellen)
+
+(Verkaufsanalyse erstellen) ..> (Verkaufszahlen ermitteln):<<include>>
+
+(Konzept erstellen) ..> (Einloggen):<<include>>
+(Konzept erstellen) ..> (Finanzierung planen):<<include>>
+(Konzept erstellen) ..> (Solaranlage konfigurieren):<<include>>
+(Konzept erstellen) ..> (Standort analysieren):<<include>>
